@@ -1,6 +1,6 @@
 {
   _config+:: {
-    kubeSchedulerSelector: 'job="kube-scheduler"',
+    kubeSchedulerSelector: 'component="kube-scheduler"',
     podLabel: 'pod',
   },
 

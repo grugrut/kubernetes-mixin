@@ -1,6 +1,6 @@
 {
   _config+:: {
-    kubeletSelector: 'job="kubelet"',
+    kubeletSelector: 'component="kubelet"',
   },
 
   prometheusRules+:: {

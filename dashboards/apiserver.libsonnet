@@ -8,7 +8,7 @@ local singlestat = grafana.singlestat;
 
 {
   _config+:: {
-    kubeApiserverSelector: 'job="kube-apiserver"',
+    kubeApiserverSelector: 'job="kubernetes-apiservers"',
   },
 
   grafanaDashboards+:: {

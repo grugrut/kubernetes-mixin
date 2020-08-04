@@ -1,6 +1,6 @@
 {
   _config+:: {
-    kubeApiserverSelector: 'job="kube-apiserver"',
+    kubeApiserverSelector: 'job="kubernetes-apiservers"',
     podLabel: 'pod',
     kubeApiserverReadSelector: 'verb=~"LIST|GET"',
     kubeApiserverWriteSelector: 'verb=~"POST|PUT|PATCH|DELETE"',

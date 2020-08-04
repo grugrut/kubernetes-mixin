@@ -1,7 +1,7 @@
 {
   _config+:: {
-    cadvisorSelector: 'job="cadvisor"',
-    kubeStateMetricsSelector: 'job="kube-state-metrics"',
+    cadvisorSelector: 'job="kubernetes-nodes-cadvisor"',
+    kubeStateMetricsSelector: 'app_kubernetes_io_name="kube-state-metrics"',
   },
 
   prometheusRules+:: {

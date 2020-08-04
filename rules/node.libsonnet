@@ -1,7 +1,7 @@
 {
   _config+:: {
-    kubeStateMetricsSelector: 'job="kube-state-metrics"',
-    nodeExporterSelector: 'job="node-exporter"',
+    kubeStateMetricsSelector: 'app_kubernetes_io_name="kube-state-metrics"',
+    nodeExporterSelector: 'component="node-exporter"',
     podLabel: 'pod',
   },
 
